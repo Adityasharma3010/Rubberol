@@ -1,0 +1,603 @@
+* {
+	box-sizing: border-box;
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+body{
+  overflow-x: hidden;
+}
+
+/* owl-carousel */
+
+.owl-carousel1 {
+	position: relative;
+	z-index: 1;
+}
+
+.owl-carousel1 .owl-dots {
+	position: absolute;
+	z-index: 2;
+	bottom: 6.49%;
+	left: 17.75%;
+}
+
+.owl-carousel2 {
+	position: relative;
+	z-index: 1;
+}
+
+.owl-carousel2 .owl-dots {
+	position: absolute;
+	z-index: 2;
+	bottom: 1.5%;
+	left: 22.8%;
+	right: 25.35%;
+}
+
+/* .owl-carousel1 .owl-dot .active{
+  border: solid;
+  border-radius: 25px;
+  border-width: 1px;
+} */
+
+@media only screen and (max-width: 446px) {
+  .logo{
+    height: 19px;
+    width: 99px;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+	.b5 {
+		font-size: 12px !important;
+	}
+
+	.navbar-nav li a:hover::before {
+		width: 40%;
+	}
+
+  .card-1 {
+    scale: 0.85;
+    transition: scale 0.5s, box-shadow 0.5s;
+  }
+  
+  .card-1:hover {
+    scale: 1;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+
+  /* .logo{
+    height: 19px;
+    width: 99px;
+  } */
+}
+
+@media screen and (min-width: 576px) {
+	.navbar-nav li a:hover::before {
+		width: 80%;
+	}
+
+  .logo{
+    height: auto;
+    width: 100%;
+  }
+
+  .card-1 {
+    scale: 1;
+    transition: scale 0.5s, box-shadow 0.5s;
+  }
+  
+  .card-1:hover {
+    scale: 1.15;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+}
+
+@media only screen and (max-width: 991px) {
+	.owl-dots {
+		display: none;
+	}
+}
+
+@media only screen and (min-width: 991px) {
+	.top-1 {
+		padding-right: 4rem;
+	}
+}
+
+/* @media only screen and (min-width: 1200px){
+
+} */
+
+/* Background Boxes */
+
+.blue-box {
+	background-color: #0165b9;
+	height: auto;
+	width: 100%;
+}
+
+.white-box {
+	background-color: #fff;
+	height: auto;
+	width: 100%;
+}
+
+.gray-box {
+	background-color: #f2f2f2;
+	height: auto;
+	width: 100%;
+}
+
+.bg-box {
+	background-image: url(images/bg.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+/* Images */
+
+.i-img1:hover {
+	content: url(images/facebook-hover.png);
+}
+
+.i-img2:hover {
+	content: url(images/twitter-hover.png);
+}
+
+.i-img3:hover {
+	content: url(images/linkdin-hover.png);
+}
+
+.img-t:hover {
+	content: url(images/truck-press.png);
+}
+
+.f-img1:hover{
+  content: url(images/facebook2.png);
+}
+
+.f-img2:hover{
+  content: url(images/twitter2.png);
+}
+
+.f-img3:hover{
+  content: url(images/linkdin2.png);
+}
+
+/* Top Header */
+
+.span-c {
+	color: white;
+	font-family: "Oswald", sans-serif;
+	font-weight: 300;
+}
+
+/* Header / Nav */
+
+.navbar-brand {
+	color: #fff;
+	font-weight: bold;
+}
+
+.navbar-nav {
+	justify-content: center;
+}
+
+.fon {
+	color: #5f5f5f;
+	font-family: "Oswald", sans-serif;
+	font-weight: 300;
+	font-size: 17px;
+}
+
+.fon:hover {
+	color: black;
+}
+
+/* .navbar-right {
+	margin-left: auto;
+} */
+
+/* Navbar Icons */
+.n1:hover {
+	content: url(images/user-hover.png);
+}
+
+.n2:hover {
+	content: url(images/cart-hover.png);
+}
+
+.n3:hover {
+	content: url(images/magnify-hover.png);
+}
+/* Navbar active */
+.active-a {
+	color: #0165ba;
+	font-family: "Oswald", sans-serif;
+	font-weight: 500;
+  font-size: 17px;
+}
+
+.navbar-nav li a {
+	/* text-transform: uppercase; */
+	letter-spacing: 1.5px;
+	position: relative;
+	transition: all 0.3s ease-in-out;
+}
+
+.navbar-nav li a:before {                             /* Navbar Underline Animation / Transition */
+	content: "";
+	position: absolute;
+	top: 90%;
+	width: 0%;
+	height: 3px;
+	background: #0165ba;
+	transition: all 0.3s ease-in-out;
+}
+
+
+/* Homebanner */
+
+.head1 {
+	font-family: "Oswald", sans-serif;
+	font-weight: 500;
+	color: #313131;
+}
+
+.p1 {
+	/* Paragraph */
+	font-family: "Roboto", sans-serif;
+	font-weight: 300;
+	color: #707070;
+}
+
+.p2 {
+	/* Paragraph */
+	font-family: "Roboto", sans-serif;
+	font-weight: 300;
+	color: #0165b9;
+	line-height: 1.88;
+}
+
+.test {
+	font-family: "Roboto", sans-serif;
+	font-weight: 300;
+	color: #0165b9;
+	line-height: 1.55;
+}
+
+.price {
+	font-family: "Oswald", sans-serif;
+	font-weight: 700;
+	color: #313131;
+}
+
+.b1 {
+	/* Button */
+	background-color: #013d6f;
+	border: 1px solid #013d6f;
+	border-right-color: #013d6f;
+	border-radius: 5px 0 0 5px;
+	font-family: "Oswald", sans-serif;
+	font-weight: 400;
+	font-size: small;
+	color: white;
+}
+
+.b2 {
+	/* Button */
+	background-color: #0066cc;
+	border-left-color: #013d6f;
+	border: 1px solid #0066cc;
+	border-radius: 0 5px 5px 0;
+	font-family: "Oswald", sans-serif;
+	font-weight: 400;
+	font-size: small;
+	color: white;
+}
+
+.b2:hover {
+	/* Button Hover */
+	background-color: #013d6f;
+	border: 1px solid #013d6f;
+}
+
+/* Advanced Search */
+
+.f1 {
+	font-family: "Roboto", sans-serif;
+	font-weight: 300;
+}
+
+.b3 {
+	/* Button */
+	background-color: #ffa21e;
+	color: white;
+	border: 1px solid #ffa21e;
+	border-radius: 0px 5px 5px 0;
+	font-family: "Oswald", sans-serif;
+	font-weight: 400;
+	font-size: small;
+	padding-left: 0;
+}
+
+.b3:hover img {
+	/* Button Hover */
+	content: url(images/search-hover.png);
+}
+
+.form-inline {
+	display: flex;
+	flex-flow: row wrap;
+	align-items: center;
+}
+
+/* Add some margins for each label */
+/* Style the input fields */
+
+.form-inline input {
+	vertical-align: middle;
+	margin: 0 5px 0 0;
+	padding: 8px;
+	background-color: #fff;
+	border: 1px solid #ddd;
+	width: 20%;
+}
+
+/* Producten content */
+
+.heading-small {
+	/* Headings for small size  */
+	font-family: "Roboto", sans-serif;
+	font-weight: 300;
+	color: #818181;
+	font-size: 15px;
+}
+
+.card-s {
+	/* Card spam style */
+	border: 1px solid #ffa21e;
+	background-color: #ffa21e;
+	color: white;
+}
+
+.b4 {
+	/* Button */
+	background-color: #0165b9;
+	color: white;
+	border: 1px solid #0165b9;
+	font-family: "Oswald", sans-serif;
+	font-weight: 400;
+	font-size: small;
+	padding: 14px 35px;
+}
+
+.b4:hover {
+	/* Button Hover */
+	background-color: #0166b988;
+}
+
+.card {
+	/* Card */
+	position: relative;
+}
+
+.card .b4 {
+	/* Button Position on card */
+	position: absolute;
+	bottom: 15%;
+	right: 33%;
+	transform: translate(50%, 50%);
+}
+
+/* .owl-carousel2 .owl-stage-outer{
+  height: 400px;
+} */
+
+.card-1 {
+	width: 265px;
+	height: 310px;
+}
+
+/* Paragraph */
+.p3 {
+	font-family: "Oswald", sans-serif;
+	font-size: 20px;
+	font-weight: 300;
+	color: #111;
+}
+
+.p4 {
+	font-family: "Roboto", sans-serif;
+	font-weight: 300;
+	color: #707070;
+	font-size: 15px;
+}
+
+/* Nieuws */
+
+.c-1 {
+	/* Card */
+	position: relative;
+}
+
+.b5 {
+	/* Button */
+	background-color: transparent;
+	color: #0165b9;
+	border: 1px solid transparent;
+	font-family: "Oswald", sans-serif;
+	font-weight: 400;
+	font-size: 17px;
+}
+
+.c-1 .b5 {
+	position: absolute;
+	bottom: 35%;
+	right: 16%;
+	transform: translate(50%, 50%);
+}
+
+.head2 {
+	/* Header class for Nieuws */
+	color: #0165b9;
+	font-family: "Oswald", sans-serif;
+	font-weight: 500;
+}
+
+/* CTA */
+
+.t1:hover {
+	content: url(images/envelope2-hover.png);
+}
+
+/* Paragraph */
+.p5 {
+	color: white;
+	font-family: "Oswald", sans-serif;
+	font-weight: 300;
+	font-size: 34px;
+}
+
+.p6 {
+	font-family: "Roboto", sans-serif;
+	font-weight: 300;
+	color: #707070;
+	font-size: 16px;
+	line-height: 1.6;
+}
+
+.b6 {
+	/* Button */
+	background-color: #ffa21e;
+	border: 2px solid #ffa21e;
+	color: white;
+	font-family: "Oswald", sans-serif;
+	font-weight: 500;
+	font-size: 12px;
+	font-weight: bold;
+	text-align: center;
+	padding: 12px 45px;
+}
+
+/* Footer */
+
+/* paragraph classes */
+.s1 {
+	font-family: "Roboto", sans-serif;
+	font-weight: bold;
+	color: #414141;
+}
+
+.fp {
+	font-family: "Roboto", sans-serif;
+	font-weight: 300;
+	color: #126fbe;
+	line-height: 1.83;
+}
+
+.fl {
+	list-style-type: none;
+}
+
+/* Home page above */
+
+/* Contact Page */
+
+    /* backgrounds */
+
+.back {
+	background-image: url(images/back11.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	display: block;
+	min-height: 312px;
+	width: 100%;
+	background-position: center;
+}
+
+/* .back{
+  background-image: url(images/back.png);
+  min-height: 446px;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  display: block;
+  position: relative;
+  background-position: 0px 0px top 10% right 25% left 25%;
+} */
+
+.head3 {
+	font-family: "Oswald", sans-serif;
+	font-weight: 500px;
+	font-size: 100px;
+	color: white;
+}
+
+.d1 {
+	position: absolute;
+	top: 45%;
+	left: 49.3%;
+	transform: translate(-50%, -50%);
+}
+
+.d2 {
+	position: absolute;
+	top: 70.1%;
+	left: 49.3%;
+	transform: translate(-50%, -50%);
+}
+
+.p7 {
+	font-family: "Oswald", sans-serif;
+	font-weight: 500px;
+	font-size: large;
+	color: white;
+	font-size: 20.8px;
+}
+
+/* .tocenter{
+  position: absolute;
+  bottom: 25%;
+} */
+
+  /* Formulier */
+
+.bg-1 {
+	background-color: #eeeeee;
+}
+
+.form1:focus {
+	background-color: #eeeeee;
+}
+
+.b7 {
+	background-color: #0165ba;
+	color: white;
+	border: 1px solid #0165ba;
+	border-radius: 5px;
+	font-family: "Oswald", sans-serif;
+	font-weight: 600;
+	font-size: 12px;
+	padding: 15px 38px;
+}
+
+.head-c {
+	color: #0165ba;
+	/* text-shadow: -1px 0 #99c1e3, 0 1px #99c1e3, 1px 0 #99c1e3, 0 -1px #99c1e3; */
+	font-family: "Roboto", sans-serif;
+	font-weight: 300;
+	font-size: 16.7px;
+}
+
+/* Test CSS */
+
+/* .g2{
+  gap: 15pc;
+} */
